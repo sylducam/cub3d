@@ -1,0 +1,53 @@
+vires tous les @ du Makefile
+
+virer le mlx init du main, il est dans la partie graphique
+
+virer la gestion des .png si tu as le temps
+
+tester avec les textures que Nicolas et Pauline utilisent
+
+lis toute la page de la mlx, il faut que tu piges la mlx pour resoudre ton
+probleme sur setup->game.texture[0].addr = |'2|
+
+attention aux free_char_p2p que tu dois remplacer par des wrfree ?
+
+prevoir un dossier pour tous les fichiers de le partie image/graphique
+
+----------------------------------Makefile-------------------------------------
+dossier objects
+--------------------------------------------------------------------------------
+1 - free elements a la fin de chaque fichier particulier de parsing de ligne
+
+free(line) a la fin de ton main
+
+ecoutes tes notes vocales
+
+dans tes favoris cub3D tu as un github avec des idees de comment casser ton cub3d
+
+push ton cub3D sur ton propre git
+
+penses a checker les headers de tous tes fichiers, car travail en commun
+
+bien verifier que tous les noms de fichiers, fonctions etc. n'ont pas de
+majuscules (surtout cub3d et non cub3D)
+
+----------------------------------libft-----------------------------------------
+la libft qui est ici n'est pas la tienne, c'est celle de Nicolas et Pauline
+Donc attention, si tu veux garder la tienne, il te faudra recopier toutes les
+fonctions ajoutees ici, dans la tienne, type le gnl ajoute (mais qui n'est pas
+le tiens, changement du Makefile). Gros travail en perspective mais il te faudra
+le faire.
+passes ta libft a la nouvelle norme
+ta libft a toi elle est danc cub3d. celle de cubcom, c'est celle de nigoncal
+si tu as le temps, verifies tes conditions d'erreur au debut de free_char_p2p.c
+(dans ta libft)
+dans la libft du cubcom tu n'as plus ft_pf_atoi, donc attention si tu veux
+l'utiliser ailleurs, elle ne permettra pas de faire fonctionner printf
+
+la partie bonus du Makefile de la libft n'est pas bien faite
+--------------------------------------------------------------------------------
+
+virer tous les dprintf
+
+remplacer les free par wrfree
+"" free de toute ta structure par le wrfree general
