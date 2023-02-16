@@ -6,7 +6,7 @@
 /*   By: pmillet <pmillet@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/24 17:05:31 by pmillet           #+#    #+#             */
-/*   Updated: 2021/03/20 09:08:59 by pmillet          ###   ########lyon.fr   */
+/*   Updated: 2023/02/16 16:15:31 by sylducam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 
 int	ft_isalpha(int c)
 {
-	int	i;
-
-	i = 0;
 	if (c < 'A' || (c > 'Z' && c < 'a') || c > 'z')
 		return (0);
 	return (1);

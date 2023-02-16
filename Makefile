@@ -1,7 +1,7 @@
 GREEN        		=    \033[32m
 
 NAME				=	libcub3d.a
-EXE					=	cub3D
+EXE					=	cub3d
 LIBFT				=	libft.a
 MLXDL				=	libmlx.dylib
 

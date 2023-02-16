@@ -6,7 +6,7 @@
 /*   By: pmillet <pmillet@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/24 17:21:47 by pmillet           #+#    #+#             */
-/*   Updated: 2021/03/20 09:10:57 by pmillet          ###   ########lyon.fr   */
+/*   Updated: 2023/02/16 16:15:10 by sylducam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 
 int	ft_isdigit(int c)
 {
-	int	i;
-
-	i = 0;
 	if (c >= '0' && c <= '9')
 		return (1);
 	return (0);

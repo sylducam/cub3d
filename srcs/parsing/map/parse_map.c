@@ -6,7 +6,7 @@
 /*   By: sylducam <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/22 16:14:31 by sylducam          #+#    #+#             */
-/*   Updated: 2021/06/22 16:14:38 by sylducam         ###   ########lyon.fr   */
+/*   Updated: 2023/02/16 17:05:00 by sylducam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,9 +54,6 @@ static int	is_map(char *line)
 
 static void	continue_map(char *line, t_setup *setup)
 {
-	int	error;
-
-	error = 0;
 	if (setup->map_over == false)
 	{
 		if (non_empty_line(line) == 1)

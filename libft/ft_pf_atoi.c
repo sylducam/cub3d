@@ -6,7 +6,7 @@
 /*   By: sylducam <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/10 17:03:35 by sylducam          #+#    #+#             */
-/*   Updated: 2021/04/29 15:55:27 by sylducam         ###   ########lyon.fr   */
+/*   Updated: 2023/02/16 16:21:14 by sylducam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,5 @@ int	ft_pf_atoi(char **str)
 		total = (total * 10) + *(*str) - '0';
 		(*str)++;
 	}
-	return (total);
+	return (total * sign);
 }
