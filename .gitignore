@@ -1,5 +1,1 @@
-cub3d
-*.o
-*.swp
-*.a
-*.dylib
+.DS_Store
