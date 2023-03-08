@@ -1,4 +1,4 @@
-# inception
+# cub3d
 
 www.42lyon.fr school project.
 
