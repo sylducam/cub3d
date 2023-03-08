@@ -1,6 +1,6 @@
 # cub3d
 
-www.42lyon.fr school project.
+www.42lyon.fr school project. Made with @nigoncal & @paulicorne
 
 cub3d is a 3d video game coded in C inspired by Wolfenstein3d, in which the player can roam a map.
 
