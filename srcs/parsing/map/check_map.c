@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_map.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sylducam <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sylmac <sylmac@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/22 16:14:22 by sylducam          #+#    #+#             */
-/*   Updated: 2021/06/22 16:14:27 by sylducam         ###   ########lyon.fr   */
+/*   Updated: 2023/04/24 13:46:23 by sylmac           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,15 +16,6 @@ void	flood_fill(char **map, int y, int x, t_setup *setup)
 {
 	if (map[y][x] == ' ')
 		abort_prog("M");
-	if ((map[y][x] == '2' && (x != 0 || x != setup->map_xsize
-			|| y != 0 || y != setup->map_ysize)))
-	{
-		map[y][x] = 'X';
-		flood_fill(map, y - 1, x, setup);
-		flood_fill(map, y, x + 1, setup);
-		flood_fill(map, y + 1, x, setup);
-		flood_fill(map, y, x - 1, setup);
-	}
 	if ((map[y][x] == '0' || bool_strchr("NSEW", map[y][x]) != -1)
 		&& (x != 0 || x != setup->map_xsize
 		|| y != 0 || y != setup->map_ysize))

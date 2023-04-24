@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   error_manager.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sylducam <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: sylmac <sylmac@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/22 16:13:26 by sylducam          #+#    #+#             */
-/*   Updated: 2021/06/22 16:13:32 by sylducam         ###   ########lyon.fr   */
+/*   Updated: 2023/04/24 13:52:18 by sylmac           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,10 @@ void	map_error(void)
 	ft_putstr("An error was spotted in your map\nRules of the map :\n");
 	ft_putstr("The only characters allowed are 0 for the floor, ");
 	ft_putstr("1 for the walls, N/S/E/W for the player ");
-	ft_putstr("according to it's orientation and spaces.\n");
-	ft_putstr("The map has to be closed by walls and space characters are ");
-	ft_putstr("only allowed around the map to shape it to your will.");
-	ft_putstr("Here's an example of a simple valid map :\n\n");
+	ft_putstr("(according to it's orientation) and space characters.\n");
+	ft_putstr("The map has to be surrounded by walls. Space characters are ");
+	ft_putstr("allowed only around the map in order to shape it. ");
+	ft_putstr("\n\nHere's an example of a simple valid map :\n\n");
 	ft_putstr("        1111111111111111111111111\n");
 	ft_putstr("        1000000000110000000000001\n");
 	ft_putstr("        1011000001110000000000001\n");
